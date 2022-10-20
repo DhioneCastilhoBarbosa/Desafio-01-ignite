@@ -1,0 +1,42 @@
+.newTaskForm
+{
+  width: 46rem;
+  height: 3.38rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: calc( 0px - 1.5rem - 0.40rem);
+  display: flex;
+  align-items: center;
+}
+
+.newTaskInput{
+  width: 40rem;
+  height: 3.38rem;
+  background: var(--gray-500);
+  border: none;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+  padding: 1rem 0 1rem 1rem;
+  color: var(--gray-300);
+}
+.newTaskButton{
+  width: 5.6rem;
+  height:3.38rem;
+  background: var(--BlueDark);
+  border: none;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--gray-100);
+}
+
+.newTaskForm button svg{
+  margin-left: 0.5rem;
+}
+
+.newTaskForm button:hover{
+  background: var(--Blue);
+}

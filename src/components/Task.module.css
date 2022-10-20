@@ -1,0 +1,41 @@
+.TaskContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 24px;
+  justify-content: space-between;
+  padding: 16px 16px;
+  border-radius: 8px;
+  background: var(--gray-500);
+}
+
+.check,.notCheck{
+grid-area: toggle;
+ width: 22px;
+ height: 22px;
+ border-radius: 100%;
+ cursor: pointer;
+}
+.notCheck{
+  background: none;
+  border: 2px solid var(--BlueDark);
+}
+
+.check{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--Purple-Dark);
+  border: 2px solid var(--Purple-Dark);
+  color: var(--gray-100);
+}
+
+.check:hover{
+  background: var(--Purple);
+  border: 2px solid var(--Purple);
+}
+
+.notCheck:hover{
+  border: 2px solid var(--Blue);
+}
