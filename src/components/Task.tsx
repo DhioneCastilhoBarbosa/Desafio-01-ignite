@@ -36,6 +36,3 @@ export function Task({ content,taskId,isDone,onDelete,onSelect}:TaskProps) {
   )
 }
 
-//refatorar este elemento
-
-//https://github.com/pedr0d1as/Ignite-ToDo/tree/main/todo/src/components
